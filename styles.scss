@@ -1,0 +1,163 @@
+$hideDD: none;
+$showDD: block;
+$listBorder: groove;
+$flexbox: flexbox;
+
+
+
+body {
+    background-color: black;
+}
+
+.loginWrapper {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    justify-content: space-between;
+    float: right;
+}
+
+.login {
+    background-color: white;
+    border-style: none;
+    margin-left: 10px;
+}
+
+.login:hover {
+    color: blue;
+}
+
+
+.nav {
+    clear: both;
+    border-bottom: solid;
+    padding-bottom: 0px;
+    padding-left: 2%;
+    background-color: orange;
+}
+
+.dropBtn {
+    margin: auto;
+   height: 30px;
+   width: 150px;
+   font-size: 115%;
+   font-weight: bold;
+   background-color: orange;
+   border-style: none;
+}
+.drop-content {
+    display:$hideDD;
+    position: absolute;
+    height: 30px;
+    width: 150px;
+}
+.search {
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.dropBtn:hover {
+    background-color: #D2691E;
+}
+
+.search:hover .drop-content {
+    display:$showDD;
+    
+}
+
+.drop-content li {
+    padding: 12px 16px;
+    display: block;
+    border-style: $listBorder;
+    background-color: beige;
+}
+
+#searchInput{
+    position: relative;
+    display: inline-block;
+    margin-left: 38%;
+}
+
+.searchBtn {
+    height: 30px;
+    margin-left: 5px;
+}
+
+#search {
+    height: 26px;
+    width: 150px;
+}
+
+.container {
+    padding-top: 1%;
+}
+.explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid;
+}
+
+.exploreHead {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.A1 {
+    width: 40%;
+    margin-left: 100px;
+    margin-right: 5px;
+}
+
+.A2 {
+    margin-left:  5px;
+    margin-right: 5px;
+}
+
+.A3 {
+    margin-left: 5px;
+    margin-right: 150px;
+}
+
+.spotLightHead {
+    margin: auto;
+    width: 18%;
+}
+.spotLight {
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.cKey {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 7px 16px;
+    margin-left: 20px;
+}
+
+.help {
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    margin-left: 2px;
+    padding: 10px 20px;
+}
+
+.plot {
+    display: none;
+    color: lightblue;
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
